@@ -35,6 +35,7 @@ void Potentiometer::tick(void) {
     originalValue = val;
     if (maxValue != 1023) {
       value = map(val, 0, 1023, 0, maxValue);
+      value = constrain(value, 0, maxValue);
     } else {
       value = val;
     }
