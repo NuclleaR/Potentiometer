@@ -1,0 +1,11 @@
+{
+  "name": "Potentiometer",
+  "keywords": "arduino, potentiometer",
+  "description": "This Arduino libary is improving the usage of a potentiometer for input.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NuclleaR/Potentiometer.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "*"
+}

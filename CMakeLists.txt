@@ -7,8 +7,7 @@ include_directories(
         /Users/skorenyuk/Library/Arduino15/packages/arduino/hardware/avr/1.6.21/cores/arduino
 )
 
-set(files
-        Arduino.h
-        )
+set(files Arduino.h)
 
-add_library(potentiometer potentiometer.cpp potentiometer.h)
+add_subdirectory(src)
+target_link_libraries(Potentiometer)

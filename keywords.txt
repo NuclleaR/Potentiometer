@@ -1,0 +1,7 @@
+Potentiometer	KEYWORD1
+
+getValue	        KEYWORD2
+getOriginalValue	KEYWORD2
+setMaxValue	        KEYWORD2
+setOnChangeListener	KEYWORD2
+tick	            KEYWORD2

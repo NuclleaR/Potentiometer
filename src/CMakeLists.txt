@@ -1,0 +1,1 @@
+add_library(Potentiometer Potentiometer.cpp Potentiometer.h)
